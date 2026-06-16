@@ -1,14 +1,18 @@
 import Navbar from "./components/Navbar";
 import Banner from "./components/Banner";
+import Hero from "./components/Hero";
+import Feature from "./components/Feature";
 import Home from "./Home";
 
 export default function App() {
   return (
     <div className="min-h-screen flex flex-col font-sans">
-      <header className="flex h-[300px] flex-col bg-black">
-        <Navbar />
+      <Navbar />
+      <header className="flex h-[200px] flex-col bg-black">
         <Banner />
       </header>
+      <Hero />
+      <Feature />
       <Home />
     </div>
   );

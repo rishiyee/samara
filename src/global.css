@@ -5,3 +5,11 @@
   --font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif;
   --color-brand: #0096f7;
 }
+
+* {
+  letter-spacing: -0.027em !important;
+}
+
+body {
+  background-color: #000;
+}
