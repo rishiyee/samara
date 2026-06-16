@@ -10,7 +10,7 @@ const menuItems = [
 
 export default function Navbar() {
   return (
-    <nav className="flex items-center pt-4 px-6">
+    <nav className="flex items-center pt-10 px-6">
       {/* Left: logo */}
       <div className="flex flex-none items-center justify-start">
         <a href="/" className="inline-flex items-center" aria-label="Samara home">
