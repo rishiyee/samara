@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Banner from "./components/Banner";
 import Hero from "./components/Hero";
 import Feature from "./components/Feature";
+import Footer from "./components/Footer";
 import Home from "./Home";
 
 export default function App() {
@@ -14,6 +15,7 @@ export default function App() {
       <Hero />
       <Feature />
       <Home />
+      <Footer />
     </div>
   );
 }
