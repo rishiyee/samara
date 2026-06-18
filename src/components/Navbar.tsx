@@ -19,7 +19,7 @@ export default function Navbar() {
       </div>
 
       {/* Center: navigation menus */}
-      <ul className="flex flex-1 items-center justify-center gap-6">
+      <ul className="flex flex-1 items-center justify-center gap-6 px-[18px] py-[12px]">
         {menuItems.map((item) => (
           <li key={item.label}>
             <a

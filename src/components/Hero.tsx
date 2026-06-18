@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import Button from "./Button";
 
 export default function Hero() {
   const sectionRef = useRef<HTMLElement>(null);
@@ -53,9 +54,15 @@ export default function Hero() {
         {"Small living,\nsupersized."}
       </p>
 
-      <p className="absolute right-[8%] top-[18%] z-10 whitespace-pre-line text-left text-[1.4vw]">
-        {"Introducing Backyard XL 10:\nTwo bedrooms, two baths:\n950 square feet."}
-      </p>
+      <div className="absolute right-[8%] top-[18%] z-20 text-left">
+        <p className="whitespace-pre-line text-[1.4vw]">
+          {"Introducing Backyard XL 10:\nTwo bedrooms, two baths:\n950 square feet."}
+        </p>
+        <Button variant="light" className="mt-4">
+          Learn more
+          <span aria-hidden="true">→</span>
+        </Button>
+      </div>
 
       {/* Front layer: transparent hero image — full-bleed, moves with the sky */}
       <img
